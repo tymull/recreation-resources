@@ -1,12 +1,13 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, HashRouter } from 'react-router-dom';
 import NavigationBar from './components/NavigationBar';
 import './App.css';
 import ContentPage from './components/ContentPage';  // ensure you import the ContentPage component
 
 function App() {
   return (
-    <Router basename="/recreation-resources">
+    // <Router basename="/recreation-resources">
+    <HashRouter>
       <div className="App">
         <NavigationBar />
         <Routes>
@@ -25,7 +26,8 @@ function App() {
           {/* Add more routes for other dropdown items... */}
         </Routes>
       </div>
-    </Router>
+    </HashRouter>
+    // </Router>
   );
 }
 
