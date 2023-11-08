@@ -2,24 +2,26 @@ const SportsAndOutdoors = [
     {
         page: "Organized Sports",
         contentSections: [
-            "content1",
-            "content2"
+            <p>Intramural Sports</p>,
+            <p>Extramural Sports</p>,
+            <p>Community Sports Leagues</p>
         ]
     },
 
     {
         page: "Equipment",
         contentSections: [
-            "content3",
-            "content4"
+            <div><p>Equipment Rentals Outdoors Unlimited</p></div>,
+            <p>Will probably just list what is available in the above section</p>
         ]
     },
 
     {
         page: "Parks",
         contentSections: [
-            "content5",
-            "content6"
+            <p>National Parks</p>,
+            <p>State Parks</p>,
+            <p>Pioneer Park</p>
         ]
     }
 ];

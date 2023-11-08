@@ -2,16 +2,19 @@ const Events = [
     {
         page: "Campus Events",
         contentSections: [
-            "content1",
-            "content2"
+            <p>Clubs Showcase</p>,
+            <p>Homecoming Week Activities</p>,
+            <p>BYU Battle of the Bands</p>,
+            <p>Cougar Skate</p>
         ]
     },
 
     {
         page: "Community Events",
         contentSections: [
-            "content3",
-            "content4"
+            <p>Balloon Fest</p>,
+            <p>Utah Valley Marathon</p>,
+            <p>7th Annual Orchard Lighting Event</p>
         ]
     }
 ];

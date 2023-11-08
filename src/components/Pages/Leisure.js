@@ -2,24 +2,27 @@ const Leisure = [
     {
         page: "Activities",
         contentSections: [
-            "content1",
-            "content2"
+            <p>Utah Valley Symphony</p>,
+            <p>Zipline Tour at Provo Canyon Adventures</p>,
+            <p>Divine Comedy</p>
         ]
     },
 
     {
         page: "Food",
         contentSections: [
-            "content3",
-            "content4"
+            <p>The Social</p>,
+            <p>The Skyroom</p>,
+            <p>BYU Creameries</p>
         ]
     },
 
     {
         page: "Clubs",
         contentSections: [
-            "content5",
-            "content6"
+            <p>Athletic/Recreation Clubs</p>,
+            <p>Special Interest Clubs</p>,
+            <p>Social Clubs</p>
         ]
     }
 ];
