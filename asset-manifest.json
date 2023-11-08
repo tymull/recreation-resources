@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/recreation-resources/static/css/main.d860870c.css",
+    "main.js": "/recreation-resources/static/js/main.92b0effa.js",
+    "static/js/787.e9342f1d.chunk.js": "/recreation-resources/static/js/787.e9342f1d.chunk.js",
+    "static/media/DimensionsOfWellness.png": "/recreation-resources/static/media/DimensionsOfWellness.fbafd2aa412e70cf4f54.png",
+    "index.html": "/recreation-resources/index.html",
+    "main.d860870c.css.map": "/recreation-resources/static/css/main.d860870c.css.map",
+    "main.92b0effa.js.map": "/recreation-resources/static/js/main.92b0effa.js.map",
+    "787.e9342f1d.chunk.js.map": "/recreation-resources/static/js/787.e9342f1d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d860870c.css",
+    "static/js/main.92b0effa.js"
+  ]
+}
