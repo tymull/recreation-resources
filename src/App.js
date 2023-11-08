@@ -6,7 +6,7 @@ import ContentPage from './components/ContentPage';  // ensure you import the Co
 
 function App() {
   return (
-    // <Router basename="/recreation-resources">
+    // for some reason HashRouter works better than Router for hosting on github pages
     <HashRouter>
       <div className="App">
         <NavigationBar />
@@ -27,7 +27,6 @@ function App() {
         </Routes>
       </div>
     </HashRouter>
-    // </Router>
   );
 }
 
