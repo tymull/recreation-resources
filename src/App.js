@@ -6,7 +6,7 @@ import ContentPage from './components/ContentPage';  // ensure you import the Co
 
 function App() {
   return (
-    <Router>
+    <Router basename="/recreation-resources">
       <div className="App">
         <NavigationBar />
         <Routes>
