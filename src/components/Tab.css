@@ -1,0 +1,15 @@
+.tab {
+    display: inline-block;
+    margin: 0 15px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    position: relative;
+  }
+  
+  .tab:hover {
+    background-color: #0056b3;
+  }
