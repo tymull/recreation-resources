@@ -8,10 +8,10 @@ const NavigationBar = () => {
   // const handleHomeClick = () => {
   //   setActiveTab('Home');
   // }
-  const categories = ['Sports & Outdoors', 'Leisure', 'Events', 'Facilities'];
+  const categories = ['Sports and Exercise', 'Social Activities', 'Outdoors', 'Events'];
   return (
     <div className="navbar">
-      <Tab title="Home" isHome={true} />
+      <Tab title="Recreation Resources" isHome={true} />
       {categories.map((category, index) => (
         <Tab key={index} title={category} isHome={false} />
       ))}

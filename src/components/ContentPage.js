@@ -1,10 +1,11 @@
 import React from 'react';
+import './ContentPage.css';
 import Card from './Card';
-import SportsAndOutdoors from './Pages/SportsAndOutdoors';
-import Leisure from './Pages/Leisure';
+import SocialActivities from './Pages/SocialActivities';
 import Events from './Pages/Events';
-import Facilities from './Pages/Facilities';
+import Outdoors from './Pages/Outdoors';
 import HomeContent from './Pages/HomeContent';
+import SportsAndExercise from './Pages/SportsAndExercise';
 
 // const contentSections = {
 //   "Home": ["Homepage"],
@@ -49,17 +50,15 @@ import HomeContent from './Pages/HomeContent';
 // }
 
 const contentMappings = {
-  "Home": HomeContent,
+  "Recreation Resources": HomeContent,
   "Campus Events": Events,
   "Community Events": Events,
-  "Campus Facilities": Facilities,
-  "Community Facilities": Facilities,
-  "Activities": Leisure,
-  "Food": Leisure,
-  "Clubs": Leisure,
-  "Organized Sports": SportsAndOutdoors,
-  "Equipment": SportsAndOutdoors,
-  "Parks": SportsAndOutdoors
+  "Nearby": Outdoors,
+  "Far Away": Outdoors,
+  "Campus Activities": SocialActivities,
+  "Community Activities": SocialActivities,
+  "Campus Sports": SportsAndExercise,
+  "Community Sports": SportsAndExercise
   // Add other mappings as necessary
 };
 

@@ -2,7 +2,7 @@ import DimensionsOfWellness from '../../DimensionsOfWellness.png';
 
 const HomeContent = [
     {
-      page: "Home",
+      page: "Recreation Resources",
       contentSections: [
         // Add the actual content sections you want to display on the Home page
         <div>
@@ -97,7 +97,9 @@ By loosening the reigns when it comes to your people’s work-life balance, you 
         </div>,
         <div>
           <img alt="" src={DimensionsOfWellness}></img>
-        </div>
+        </div>,
+        <h1>Equipment Rentals</h1>,
+        <h1>Meditation Group</h1>
       ]
     }
   ];

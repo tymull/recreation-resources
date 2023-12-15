@@ -7,10 +7,10 @@ const DropdownMenu = ({ category }) => {
   // You can expand this using the provided resources.
   // For card sorting take things at the leaves and put those in index card.
   const pages = {
-    'Sports & Outdoors': ['Organized Sports', 'Equipment', 'Parks'],
-    'Leisure': ['Activities', 'Food', 'Clubs'],
+    'Sports and Exercise': ['Campus Sports', 'Community Sports'],
+    'Social Activities': ['Campus Activities', 'Community Activities'],
     'Events': ['Campus Events', 'Community Events'],
-    'Facilities': ['Campus Facilities', 'Community Facilities']
+    'Outdoors': ['Nearby', 'Far Away']
   };
 
   return (

@@ -6,7 +6,7 @@ const DropdownItem = ({ page }) => {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    if (page === 'Home') {
+    if (page === 'Recreation Resources') {
       navigate('/'); // Navigate to the homepage directly
     }
     else {

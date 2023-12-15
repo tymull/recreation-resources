@@ -1,8 +1,61 @@
 .card {
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 2.5rem;
+    background-color: aliceblue;
+    width: 70%;
+    max-height: 15rem;
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin: 10px;
+    margin: 2rem;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
-  }
+    transition: transform 0.2s ease-in-out;
+    position: relative;
+}
+
+.card:hover {
+  /* transform: scale(1.05); */
+  cursor: pointer;
+  /* z-index: 10;  */
+}
+
+.card:hover .expand-icon, .card:hover .collapse-icon {
+  transform: scale(1.6);
+}
+
+.expand-icon, .collapse-icon {
+  transition: transform 0.2s ease-in-out;
+  opacity: 0.5;
+}
+
+.collapse-icon {
+  height: 100%;
+  position: absolute;
+  bottom: 0.2rem;
+  padding-bottom: 0.2rem;
+}
+
+.card.expanded {
+  max-height: none; /* Remove max-height when expanded */
+}
+
+.card-content img {
+  width: 100%;
+}
+
+.expand-container, .collapse-container {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translate(-50%);
+  padding-bottom: 0.8rem;
+  padding-top: 0.2rem;
+  height: 1.5rem;
+  width: 100%;
+  background-color: aliceblue;
+  box-shadow: 0px -10px 8px 2px aliceblue;
+}
   

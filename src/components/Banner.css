@@ -1,0 +1,50 @@
+.banner {
+    height: 10rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    background-image: var(--background-image-url);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    background-position: 100% 75%;
+    
+    /* justify-content: center; */
+}
+
+/* .banner-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+} */
+
+.banner h1 {
+    font-size: 3rem;
+    font-family: 'Megrim', 'Segoe UI', sans-serif;
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    margin: 0;
+    padding: 0;
+    max-width: 30rem;
+    /* position: absolute; */
+    /* top: 1rem;
+    left: 33%;
+    right: 33%; */
+    /* max-height: fit-content; */
+    /* width: 33%; */
+    text-align: center;
+    z-index: 10;
+}
+
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 100% 75%;
+}
