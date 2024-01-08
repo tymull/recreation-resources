@@ -1,7 +1,5 @@
 # recreation-resources
- Healthy recreation resources for BYU students. This was a project for C S 356 that was alright to keep public.
-
- The purpose of this project was to practice designing an effective information architecture. To save time, I stubbed out a lot of the content on the different pages, but it still shows the general idea. 
+ Healthy recreation resources for BYU students. This was a project for C S 356 that was alright to keep public. The purpose of this project was to practice designing an effective information architecture. To save time, I stubbed out a lot of the content on the different pages, but it still shows the general idea. 
 
  ## Methodology
 
